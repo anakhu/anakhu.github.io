@@ -1,9 +1,16 @@
 @import 'variables';
 @import 'mixins';
 
+.aboutPage-wrapper {
+  section {
+    @include pageContent();
+  }
+}
+
+
 .aboutPage__content {
   text-align: justify;
-  
+
   div {
     padding: 10px;
   }

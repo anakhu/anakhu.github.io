@@ -32,6 +32,10 @@
 
   form {
     padding: 20px 40px;
+
+    @include mQ(600px) {
+      height: 100vh;
+    }
    
     label, input, button {
       display: block;
